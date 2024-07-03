@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Of Tiny</title>
+    <!--Main File Of CSS-->
+    <link rel="stylesheet" href="./css/main.css">
+    <!--Render All Elements Normally-->
+    <link rel="stylesheet" href="./css/normaliZe.css">
+    <!--Font Awesome Library-->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Start Header-->
+      <div class="header">
+        <div class="container">
+            <div class="icon-link">
+                <i id="icon-bars" class="fa-solid fa-bars"></i>
+            </div>
+            <div class="logo">
+                <img src="images/Tiny-Logos-ALL-01_1_6f7a4e61-2612-4f4b-8327-62b0ed2413be_300x300.png" alt="">
+            </div>
+            <ul class="links">
+                <li id="links-Li-One" class="links-Li-One">
+                    <a  class="show" id="meals-link" href="#shop">shop</a>
+                    <i id="icon-mealas" class="fa-solid fa-chevron-down down"></i>
+                </li>
+                <li id="link-li-Two" class="link-li-Two">
+                    <a class="show" id="shop-link" href="#ourmeals">our meals</a>
+                    <i id="icon-shop" class="fa-solid fa-chevron-down down"></i>
+                </li>
+                <li>
+                    <a href="#contact" id="contact-Link">contact</a>
+                </li>
+            </ul>
+            <div class="icons">
+                <a id="build-plan"  href="#shop">build your plan</a>
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a class="my-shop" id="my-cart" href="#your-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="meals-content" id="meals-content">
+        <div class="container">
+            <div class="col">
+                <div class="image">
+                    <img src="./images/Banana_Butternut_Bowl_-_hero_square_crop_555x.webp" alt=""/>
+                </div>
+                <div class="text">
+                    <h4>best sellers</h4>
+                    <p>a special selection of our most loved items</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="image">
+                    <img src="./images/Apple_Pie_Oatmeal_-_hero_square_crop_555x.webp" alt="" />
+                </div>
+                <div class="text">
+                    <h4>purees</h4>
+                    <p>made for little ones 6 + months</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="image">
+                    <img src="./images/Baby_Burrito_Bowl_-_hero_square_crop_300x@2x (1).webp" alt="" />
+                </div>
+                <div class="text">
+                    <h4>meals</h4>
+                    <p>our original best-sellers made for little ones 6 + months</p>
+                </div>
+            </div>
+            <div class="col col-meals">
+                <div class="image">
+                    <img src="./images/BlueberryBananaOatmeal-herosquarecrop_555x.webp" alt="" />
+                </div>
+                <div class="text">
+                    <h4>toddler</h4>
+                    <p>a 8-ounce portion of 6 of our best-sellers. made for growing toddlers with big appetites</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shop-content">
+        <div class="container">
+            <div class="col">
+                <img src="./images/hero-meals-mobile-more-broccoli-please1_10_300x@2x (1).webp" alt="" />
+                <p>build your plan</p>
+            </div>
+            <div class="col">
+                <img src="images/hero-meals-mobile-more-broccoli-please1_1_300x@2x.webp" alt="" />
+                <p>variety packs</p>
+            </div>
+            <div class="col">
+                <img src="images/hero-meals-mobile-more-broccoli-please1_4_300x@2x (1).webp" alt="" />
+                <p>gift</p>
+            </div>
+        </div>
+    </div>
+    <!--Start Cart-->
+   <div class="my-cart">
+       <div class="container">
+            <div class="col">
+                <div class="text" id="my-text-cart">
+                    <h2>my cart</h2>
+                   <p>(<span id="span-cart-Number">0</span> items)</p>
+                </div>
+                <i id="cart-icon" class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="all-items" id="all-items">
+             
+            </div>
+            <div class="continue-Shopping">
+                <button id="remove-items">remove items</button>
+                <p>YOU MAY ALSO LOVE</p>
+                <a href="#shop">continue shopping</a>
+            </div>
+        </div>
+    </div>
+    <!--End Cart-->
+    <!--End Header-->
+    <!--Start Slider-->
+       <div class="slider" id="slider">
+        <div class="container">
+            <div class="text">
+               <h1>raise a healthy eater for life</h1>
+                <p>tiny organics delivers nutritious and 100% organic, ready-made meals for your baby and toddler.</p>
+                <p>Meals starting at <span>$3.36</span> per meal</p>
+                <a id="shop-now" href="#shop">shop now</a>
+            </div>
+            <div class="image">
+                <img src="images/herovariantbmobile_450x_preview_rev_1.png" alt="" />
+            </div>
+        </div>
+        <div class="habits">
+            <p>Instill good eating habits from the start!</p>
+        </div>
+        </div>
+        <div class="images" id="images">
+            <div class="container">
+             <div class="all-images">
+                 <img id="active-image" class="active" src="images/featured-in-logos-newyorker-white.webp" alt="" />
+                 <img src="images/featured-in-logos-forbes-white.webp" alt="" />
+                 <img src="images/featured-in-logos-white-techcrunch.webp" alt=""/>
+                 <img src="images/featured-logo-fatherly-white.webp" alt=""/>
+                 <img src="images/featured-in-logos-inc-white.webp" alt="" />
+                 <img src="images/featured-in-logos-romper-white.webp" alt=""/>
+             </div>
+            </div>
+         </div>
+    <!--End Slider-->
+    <!--Start Meals-->
+        <div class="meals-two" id="meals-two">
+            <div class="container">
+                <div class="text">
+                    <h1>Meals made for your little one</h1>
+                    <p>We've built Tiny with a deep understanding of what's most important when it comes to feeding your child, so it's one less thing you have to worry about.</p>
+                </div>
+                <div class="meals-content-two">
+                    <div class="col">
+                        <div class="one">
+                            <i class="fa-solid fa-carrot"></i>
+                            <h3>Real ingredients</h3>
+                            <p>All our ingredients are 100% organic, plant-based, and Peanut free.</p>
+                        </div>
+                        <div class="two">
+                            <i class="fa-solid fa-bowl-food"></i>
+                            <h3>Perfectly portioned</h3>
+                            <p>For babies and toddlers 6 months+</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/food_400x@2x_preview_rev_1.png" alt=""/>
+                    </div>
+                    <div class="col">
+                        <div class="three">
+                            <i class="fa-solid fa-head-side-virus"></i>
+                            <h3>Science-backed</h3>
+                            <p>All Tiny meals are created by a chef and team of neonatal nutritionists</p>
+                        </div>
+                        <div class="four">
+                            <i class="fa-solid fa-sd-card"></i>
+                            <h3>Delivered to you</h3>
+                            <p>Tiny's meals are made fresh and shipped frozen to your door.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-link">
+                    <a id="shop-now-meals" href="#shop">shop now</a>
+                </div>
+            </div>
+        </div>
+    <!--End Meals-->
+    <!--Start Shop One-->
+    <div class="Best-sellers" id="shop">
+        <div class="container">
+            <div class="heading">
+                <h2>BREAKFAST BOWLS</h2>
+            </div>
+            <div class="shop-one">
+                    <div class="col col-one">
+                        <img id="img-one" src="./images/img-pdp-01_a96c6c9a-240f-4a3d-a834-1383071e789d_555x.webp" alt="">
+                        <div class="text-content">
+                            <h3>banana butternut bowl</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$5.99/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-one">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-Two">
+                        <img id="img-two" src="./images/main_9c915ac9-ec03-42d9-939f-a33519bf0c6b_555x (1).webp" alt="">
+                        <div class="text-content">
+                            <h3>apple pie oatmeal</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$5.99/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-Two">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-Three">
+                        <img id="img-three" src="./images/img-pdp-01_19bfe26c-e241-45a5-859e-e9ceda6a46e1_555x.webp" alt="">
+                        <div class="text-content">
+                            <h3>blueberry banana oatmeal</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$5.99/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-Three">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-Four">
+                        <img id="img-Four" src="./images/img-pdp-01_60886664-c73f-4ede-8a6d-0bd9ff51badb_555x.webp" alt="">
+                        <div class="text-content">
+                            <h3>potato hash</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$5.99/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-Four">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!--End Shop One-->
+    <!--Start Shop Two-->
+    <div class="Best-sellers-Two">
+        <div class="container">
+            <div class="heading-Two">
+                <h2>LUNCH & DINNER</h2>
+            </div>
+            <div class="shop-Two">
+                    <div class="col col-Five">
+                        <img id="img-Five" src="./images/img-pdp-01_a96c6c9a-240f-4a3d-a834-1383071e789d_555x.webp" alt="">
+                        <div class="text-content">
+                            <h3>banana butternut bowl</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$5.99/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-Five">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-Six">
+                        <img id="img-Six" src="./images/1_555x.webp" alt="">
+                        <div class="text-content">
+                            <h3>baby burrito bowl</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$5.99/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-Six">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-Seven">
+                        <img id="img-Seven" src="./images/img-woo-01_555x.webp" alt="">
+                        <div class="text-content">
+                            <h3>zucchini pesto pasta</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$5.99/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-Seven">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-Eight">
+                        <img id="img-Eight" src="./images/img-pdp-01_cbe9a05f-5d23-4655-8190-fd3cb74e9ff5_555x.webp" alt="">
+                        <div class="text-content">
+                            <h3>coconut curry</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$5.99/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-Eight">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-Nine">
+                        <img id="img-Nine" src="./images/img-pdp-01_60886664-c73f-4ede-8a6d-0bd9ff51badb_555x.webp" alt="">
+                        <div class="text-content">
+                            <h3>potato hash</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$5.99/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-Nine">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-Ten">
+                        <img id="img-Ten" src="./images/img-pdp-01_583348d2-a1f9-41af-8927-bdc739325044_555x (1).webp" alt="">
+                        <div class="text-content">
+                            <h3>chickpea yam bowl</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$5.99/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-Ten">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-Twelve">
+                        <img id="img-Twelve" src="./images/img-pdp-01_a3e2361b-abc9-4d99-9623-791b86338ab1_555x.webp" alt="">
+                        <div class="text-content">
+                            <h3>broccoli veggie medley</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$5.99/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-Twelve">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!--End Shop Two-->
+    <!--Start Meals-->
+    <div class="pick-meal">
+        <div class="container">
+            <div class="col">
+                <div class="image">
+                    <img src="images/how_it_works_1_b_c.webp" alt="">
+                </div>
+                <div class="text">
+                    <h1>Tell us about your little one</h1>
+                    <p>Answer a few quick questions about your little one so we can show you their recommended meals.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="text">
+                    <h1>Pick your meal plan</h1>
+                    <p>Choose which recipes you'd like for your little one and pick how many you’d like to receive.</p>
+                </div>
+                <div class="image">
+                    <img src="images/how_it_works_2.webp" alt="">
+                </div>
+            </div>
+            <div class="col">
+                <div class="image">
+                    <img src="images/how_it_works_3.webp" alt="">
+                </div>
+                <div class="text">
+                    <h1>Unpack, warm up, dig in!</h1>
+                    <p>Your Tiny Meals arrive at your door frozen. Just warm them up and they’re ready for your little one.</p>
+                </div>
+            </div>
+            <div class="shop-now">
+                <a href="#ourmeals">shop now</a>
+            </div>
+        </div>
+    </div>
+    <!--End Meals-->
+    <!--Start MealsItems-->
+    <div class="meals-Items" id="ourmeals">
+        <div class="container">
+            <div class="heading-Meals">
+                <h2>OUR MEALS PURÉES</h2>
+            </div>
+            <div class="shop-Meals">
+                    <div class="col col-one">
+                        <img id="img-meal-one" src="./images/hero-meals-mobile-more-broccoli-please1_555x (1).webp" alt="">
+                        <div class="text-content">
+                            <h3>apple & beet puree</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$4.19/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-oneMeals">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-two">
+                        <img id="img-meal-two" src="./images/hero-meals-mobile-more-broccoli-please1_3_555x (1).webp" alt="">
+                        <div class="text-content">
+                            <h3>blueberry & banana puree</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$4.19/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-TwoMeals">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-three">
+                        <img id="img-meal-three" src="./images/hero-meals-mobile-more-broccoli-please1_9_555x (1).webp" alt="">
+                        <div class="text-content">
+                            <h3>pea & zucchini puree</h3>
+                            <div class="star">
+                                <div class="icons">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.8</p>
+                            </div>
+                            <p>$4.19/meal</p>
+                            <div class="add-cart">
+                                <a href="#dggd" id="add-cart-ThreeMeals">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!--End MealsItems-->
+       <!--Start Backed-experts-->
+    <div class="Backed-experts" id="Backed-experts-Departemant">
+        <div class="container">
+            <div class="heading">
+                <h1>Backed by experts</h1>
+            </div>
+            <div class="experts-content" id="experts-content">
+                <div class="col">
+                    <div class="images">
+                        <img src="images/bio3 (1).webp" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Caree J. Cotwright, PhD, RDN</h2>
+                        <p>Associate Professor, University of Georgia Department of Nutritional Sciences</p>
+                        <p>"I am proud to partner with Tiny Organics to build a strong foundation for kids to become veggie lovers. Tiny Organics has a flavorful and fun approach to develop adventurous eaters."</p>
+                    </div>
+                </div>
+                <div class="col active">
+                    <div class="images">
+                        <img src="images/bio2.webp" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Dariush Mozaffarian, MD, DrPH</h2>
+                        <p>Professor at the Friedman School of Nutrition Science and Policy & Tiny's Scientific Advisor</p>
+                        <p>"Tiny Organics is a member of our Food and Nutrition Innovation Council and I'm proud to personally serve as Tiny's scientific advisor."</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="images">
+                        <img src="images/bio3 (1).webp" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Priscilla Barr, MS, RDN</h2>
+                        <p>Neonatal Nutritionist, NYU Langone & Tiny's Nutritional Advisor</p>
+                        <p>"There is no better time in a child's life to make nutrition a top priority than during infancy and toddlerhood: when their brains are growing faster than ever."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Backed-experts-->
+    <!--Start Proud partner-->
+    <div class="Proud-partner">
+        <div class="container">
+            <div class="Proud-partner-content">
+                <div class="image-one">
+                    <img src="images/pha-icon (2).webp" alt="">
+                </div>
+                <div class="text-content">
+                    <h1>Proud partner of Veggies Early and Often</h1>
+                    <p>Through Veggies Early and Often, Partnership for a Healthier America is convening industry leaders including Tiny Organics, health professionals, and early education partners to help improve the food landscape for the nation's youngest eaters through a veggie-forward approach. We aim to educate parents, caregivers, health professionals, and baby and toddler food makers about the importance of early, repeated exposure to vegetables for young eaters.</p>
+                </div>
+                <div class="image-two">
+                    <img src="images/look_for_logo (1).webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Proud partner-->
+      <!--Start Great-Company-->
+    <div class="great-company">
+        <div class="container">
+            <div class="heading">
+                <h1>You're in great company</h1>
+                <p>See what parents are saying</p>
+            </div>
+            <div class="great-content">
+                <div class="col active">
+                    <img src="images/customer-reviews-circle-tara_300x@2x (1).webp" alt="">
+                    <h2>"We tried Tiny Organics and he loved it! Half of it ended up in his bib because he,s still learning how to transfer the food from his hand but he was gobbling it up lol."</h2>
+                    <p>Tara, Arizona</p>
+                </div>
+                <div class="col">
+                    <img src="images/customer-reviews-circle-danielle_300x@2x.webp" alt="">
+                    <h2>"A meal game changer! Every meal is fresh, organic and creative. Full disclosure, the 'I Think There I Yam' looked so tasty I had to try it lol - it's delicious!"</h2>
+                    <p>Danielle, Philadelphia</p>
+                </div>
+                <div class="col">
+                    <img src="images/customer-reviews-circle-tina_300x@2x.webp" alt="">
+                    <h2>"The meals are delicious and our kids are pretty darn picky. They like it because Mom didn't prepare it, and I like it because I didn't have to and I have zero guilt about it!</h2>
+                    <p>Tina, Ohio</p>
+                </div>
+                <div class="col">
+                    <img src="images/customer-reviews-circle-carol_300x@2x.webp" alt="">
+                    <h2>"You've been a lifesaver for busy moms like us. I don't know what to do without Tiny Organics. I travel a lot for work and my husband gets so worried when we don't have enough of Tiny Organics in the freezer. It's made Maggie a great eater too!"</h2>
+                    <p>Carol, New York</p>
+                </div>
+            </div>
+            <div class="bullets-content">
+
+            </div>
+            <div class="shop-link">
+                <a href="#shop">shop now</a>
+            </div>
+        </div>
+    </div>
+    <!--End Great-Company-->
+    <!--Start Contact Us-->
+    <div class="contact-Us" id="contact">
+        <div class="container">
+            <div class="title-Contact">
+                <div class="heading">
+                    <h1>Contact Us</h1>
+                    <p>For general and order-related inquiries,<br>
+                        please email us at <span>hello@tinyorganics.com</span></p>
+                </div>
+                <div class="text-Contact">
+                    <h3>Press and Mailing Information</h3>
+                    <div class="text-one">
+                        <p>Press/media inquiries:</p>
+                        <p>partnerships@tinyorganics.com</p>
+                    </div>
+                    <div class="text-two">
+                        <p>Visit us:</p>
+                        <p>386 Park Ave S 5th Floor, New York, NY 10016</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-Content">
+                <div class="col-one">
+                    <div class="text">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>store address</h4>
+                            <p>123 Main St,</p>
+                             <p>London, UK</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>call us</h4>
+                            <p>tel: 1.800.555.8989</p>
+                            <p>fax: 1.800.555.8989</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <h4>store hours</h4>
+                            <p>mon-fri: 10:00 - 20:00</p>
+                            <p>weekend: 12:00 - 16:00</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="" id="register" method="get">
+                    <div class="input-Names">
+                        <div class="input-One">
+                            <p>first name<span>*</span></p>
+                            <input type="text" id="First-Name-Input" name="First-Name" placeholder="first name"/>
+                        </div>
+                        <div>
+                            <p>last name<span>*</span></p>
+                            <input type="text" id="Last-Name-Input" name="last-Name" placeholder="last name"/>
+                        </div>
+                    </div>
+                    <div class="email-input">
+                        <div>
+                            <p>email address<span>*</span></p>
+                            <input type="email" id="Email-Address-Input" name="Email-Address" placeholder="email address">
+                        </div>
+                        <div>
+                            <p>phone number<span>*</span></p>
+                            <input type="text" id="Phone-Number-Input" name="Phone-Number" placeholder="phone number">
+                        </div>
+                    </div>
+                    <div class="text-area">
+                        <p>how may we help you?<span>*</span></p>
+                        <textarea id="textarea-Input" placeholder="help me understand how i can help you?" name="text-area"></textarea>
+                    </div>
+                    <input class="submit-form" type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--End Contact Us-->
+    <!--Start Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="col">
+                    <div class="logo">
+                        <h1>tiny</h1>
+                    </div>
+                    <div class="all-Links">
+                        <ul class="links-One">
+                            <li><a href="#shop">request us to a store</a></li>
+                            <li><a href="#ourmeals">our meals</a></li>
+                            <li><a href="#contact">why tiny</a></li>
+                            <li><a href="#shop">our store</a></li>
+                            <li><a href="#ourmeals">one-time bundles</a></li>
+                            <li><a href="#contact">faq</a></li>
+                        </ul>
+                        <ul class="links-Two">
+                            <li><a href="#shop">blog</a></li>
+                            <li><a href="#ourmeals">ambassador program</a></li>
+                            <li><a href="#contact">contact us</a></li>
+                            <li><a href="#shop">terms of service</a></li>
+                            <li><a href="#ourmeals">refund policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-one">
+                    <h1>Get tiny updates, early access to new meals, and more.</h1>
+                    <form action="" id="form-Footer">
+                        <input class="email" type="email" name="Email-Address-Footer" placeholder="Email address" id="email-Footer">
+                        <input class="submit" type="submit" value="subscribe">
+                    </form>
+                    <div class="icons-social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text">
+                <p>© TINY ORGANICS INC. ALL RIGHTS RESERVED. PRIVACY POLICY TERMS & CONDITIONS</p>
+            </div>
+        </div>
+    </div>
+    <!--End Footer-->
+    <script src="./js/main.js"></script>
+</body>
+</html>
